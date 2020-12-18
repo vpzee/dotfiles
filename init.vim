@@ -1,5 +1,4 @@
 " Install this file in ~/.config/nvim/
-filetype plugin indent on "detects filetype, indentation, and loads plugin file
 
 " Plug https://github.com/junegunn/vim-plug
 call plug#begin('~/.config/nvim/plugged')
@@ -26,9 +25,7 @@ call plug#end()
 
 " Basic options
 inoremap jj <ESC>
-set encoding=utf-8
 set nomodeline "when set doesn't check the first few lines of a file for modelines
-set autoindent "copies the indent from the previous line when you start a newline with o
 set cursorline "highlight the text line of the cursor with CursorLine
 set visualbell "flashes the screen
 set relativenumber "use relative numbers instead of absolute numbers
@@ -37,7 +34,6 @@ set backspace=indent,eol,start "so you can use backspace everywhere
 set listchars=tab:▸\ ,eol:¬ "TextMate style invisible characters
 set cpo+=J "Using two spaces after a sentence
 set scrolloff=100 "keeps the cursor in the middle
-syntax enable
 
 
 " Tabs, Spaces, Wrapping
@@ -51,11 +47,7 @@ set colorcolumn=80
 " Searching
 set ignorecase "case of normal letters is ignored
 set smartcase  "override the 'ignorecase' option if the pattern contains upper case characters
-set hlsearch   "highlight all the matches of a search
-set incsearch  "while typing show where the pattern matches
 
-
-set background=dark
 
 if (has("termguicolors"))
  set termguicolors
