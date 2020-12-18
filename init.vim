@@ -1,3 +1,4 @@
+" Install this file in ~/.config/nvim/
 filetype plugin indent on "detects filetype, indentation, and loads plugin file
 
 " Plug https://github.com/junegunn/vim-plug
