@@ -28,6 +28,7 @@ inoremap jj <ESC>
 set nomodeline "when set doesn't check the first few lines of a file for modelines
 set cursorline "highlight the text line of the cursor with CursorLine
 set visualbell "flashes the screen
+set number "shows the line numbers
 set relativenumber "use relative numbers instead of absolute numbers
 set hidden "so you can switch to other buffers without saving the current buffer
 set backspace=indent,eol,start "so you can use backspace everywhere
